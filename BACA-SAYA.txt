@@ -1,0 +1,27 @@
+LANDING PAGE AMAGA CORP — PANDUAN UPLOAD
+=========================================
+
+ISI FOLDER
+  index.html              -> halaman utama
+  assets/css/style.css    -> tampilan (warna, layout, responsif)
+  assets/js/main.js       -> menu mobile, animasi, counter angka
+  assets/img/             -> semua gambar + logo.svg + og-image.jpg
+
+CARA UPLOAD (cPanel / hosting biasa)
+  1. Login cPanel > File Manager > buka folder public_html
+  2. Upload file ZIP ini, klik kanan > Extract
+  3. Pastikan index.html berada LANGSUNG di dalam public_html
+     (bukan di public_html/amaga-corp/index.html)
+  4. Buka domain Anda — selesai.
+
+YANG PERLU DIGANTI SEBELUM LIVE
+  - Nomor WhatsApp: cari "6281234567890" di index.html (ada 4 tempat)
+  - Email, website, alamat: bagian <footer> di index.html
+  - Gambar: ganti file di assets/img/ dengan foto asli, NAMA FILE SAMA
+      hero-kiri.jpg, hero-kanan.jpg   -> latar banner atas
+      gedung.jpg                      -> foto gedung (Tentang Kami)
+      pendiri.jpg                     -> foto pendiri
+      unit-*.jpg                      -> 4 unit bisnis (rasio ±2:1)
+      berita-1..4.jpg                 -> berita/kegiatan (rasio ±2:1)
+      footer-masjid.jpg               -> ornamen footer
+  - Angka pencapaian: atribut data-target di index.html
